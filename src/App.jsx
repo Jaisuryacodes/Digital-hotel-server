@@ -1,11 +1,12 @@
 import { useState } from "react";
 import "./App.css";
-
+import navbar from "./NavBar.jsx";
+import Offers from "./Offers.jsx";
 function App() {
   return (
     <>
       <div>
-        <h1>Digital-hotel-server </h1>
+        <Offers />
       </div>
     </>
   );
