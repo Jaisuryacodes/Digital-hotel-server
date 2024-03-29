@@ -1,86 +1,83 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  header {
-    background-color: gray;
-    color: rgb(13, 21, 183);
-    padding: 16px;
-    font-size: large;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    display: flex;
-    justify-content: space-between;
-  }
-  .intro {
-    margin: 5px 10px;
-    display: flex;
-    justify-content: center;
-  }
-  #Home {
-    height: 100vh;
-  }
-  .Special {
-    width: auto;
-    margin: 10px 0px 0px 10px;
-    height: 200px;
-    margin: 10px 2px 5px, 2px;
-    border: 2px solid transparent;
-    display: flex;
-    justify-content: start;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    gap: 0.8rem;
-    justify-content: space-between;
-    scrollbar-color: transparent transparent;
-    scrollbar-width: 0px;
-    scroll-behavior: smooth;
-  }
-  .Special > img:nth-child(2) {
-    width: 900px;
-    gap: 0.8rem;
-  }
-  
-  .Special:hover > img:nth-child(2) {
-    width: 400px;
-    /* gap: 0.8rem; */
-  }
-  .Special > img:nth-child(2):hover {
-    width: 900px;
-  }
-  img {
-    margin-top: 10px;
-    width: 280px;
-    height: 180px;
-    transition: 200ms;
-  
-    transform-origin: center;
-  }
-  img:hover {
-    width: 600px;
-    gap: 2rem;
-    height: 180px;
-  }
-  .clientSelection {
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-    margin-top: 50px;
-  }
-  button {
-    width: 100px;
-    background-color: transparent;
-    color: orangered;
-    font-size: larger;
-    height: 25px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  button:hover {
-    width: 100px;
-    height: 25px;
-    background-color: orangered;
-    color: azure;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: gray;
+  color: rgb(13, 21, 183);
+  padding: 16px;
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.intro {
+  margin: 5px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.Special {
+  width: auto;
+  margin: 10px 0px 0px 10px;
+  height: 200px;
+  margin: 10px 2px 5px, 2px;
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: start;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 0.8rem;
+  justify-content: space-between;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: 0px;
+  scroll-behavior: smooth;
+}
+.Special > img:nth-child(2) {
+  width: 900px;
+  gap: 0.8rem;
+}
+
+.Special:hover > img:nth-child(2) {
+  width: 800px;
+  gap: 0.8rem;
+}
+.Special > img:nth-child(2):hover {
+  width: 900px;
+}
+.imagepic {
+  margin-top: 10px;
+  width: 280px;
+  height: 180px;
+  transition: 200ms;
+
+  transform-origin: center;
+}
+.imagepic:hover {
+  width: 600px;
+  gap: 2rem;
+  height: 180px;
+}
+.clientSelection {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 50px;
+}
+button {
+  width: 100px;
+  background-color: transparent;
+  color: orangered;
+  font-size: larger;
+  height: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+button:hover {
+  width: 100px;
+  height: 40px;
+  background-color: orangered;
+  color: azure;
+}
